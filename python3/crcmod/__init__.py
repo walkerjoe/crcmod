@@ -1,4 +1,5 @@
 try:
+    from crcmod.crcmod import _usingExtension
     from crcmod.crcmod import *
     import crcmod.predefined
 except ImportError:
